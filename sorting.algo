@@ -1,0 +1,8 @@
+InsertionSort(A)
+1. for i = 1 to length(A) - 1 do
+2.    j = i
+3.    while j > 0 and A[j] < A[j-1] do
+4.        swap A[j] and A[j-1]
+5.        j = j - 1
+6.    end while
+7. end for
